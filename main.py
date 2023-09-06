@@ -7,6 +7,7 @@ driver.get("https://ecuador.patiotuerca.com/")
 search_box = driver.find_element(by=By.CSS_SELECTOR, value="#search-list")
 search_box.send_keys("Audi A4")
 
+
 search_button = driver.find_element(by=By.CSS_SELECTOR, value="#openSearch > div > div > div.search-ots.false > img")
 search_button.click()
 
